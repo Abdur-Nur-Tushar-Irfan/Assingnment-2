@@ -6,14 +6,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 header {
     background-color: black;
     color: white;
-    width: 1170px;
-    height: 385px;
-    border-radius: 30px;
+    width: 1218px;
+    height: 380px;
+    border-radius: 20px;
     margin-left: 75px;
     margin-top: 40px;
+    transition: 0.2s all;
+
+
+
+}
+
+header:hover {
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0);
+    transform: scale(1.05);
 
 }
 
@@ -48,13 +59,23 @@ main {
     margin-bottom: 20px;
 }
 
+
+.aside-button li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 .aside-button {
     margin-left: 75px;
     margin-top: 100px;
     background-color: black;
 
-    width: 160px;
-    height: 220px;
+    width: 200px;
+    height: 250px;
     padding-right: 40px;
     border-radius: 7px;
 
@@ -65,21 +86,9 @@ main {
 
 }
 
-.btn1 {
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: 700;
-
-
-}
-
 .btn2 {
-    padding: 5px;
+    background-color: rgb(214, 88, 88);
     border-radius: 5px;
-    font-weight: 700;
-    background-color: rgb(219, 57, 57);
-    color: white;
-
 
 }
 
@@ -87,11 +96,6 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 30px;
-
-
-
-
-
     color: white;
 
 }
@@ -111,4 +115,66 @@ main {
 .blog-img-size {
 
     padding-left: 10px;
+}
+
+/* footer-section start */
+.footer-section {
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    height: 420px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+.goal {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+
+}
+
+
+.goal ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 50px;
+
+}
+
+.goal ul li {
+    padding-left: 50px;
+}
+
+
+hr {
+    width: 1080px;
+    background-color: gray;
+    opacity: calc(0.2);
+}
+
+.footer-button ul {
+    padding-right: 40px;
+}
+
+.media-icon {
+    text-align: center;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
