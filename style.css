@@ -1,0 +1,114 @@
+/* google font start */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Poppins&display=swap');
+
+/* google font end */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 1170px;
+    height: 385px;
+    border-radius: 30px;
+    margin-left: 75px;
+    margin-top: 40px;
+
+}
+
+.header-section {
+    display: flex;
+}
+
+.player-img {
+    padding-top: 40px;
+    margin-left: 100px;
+}
+
+.greatest {
+    padding-left: 150px;
+    padding-top: 40px;
+
+
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: rgb(219, 72, 72);
+    color: white;
+    font-weight: 700;
+
+}
+
+
+/* aside-button start */
+main {
+    margin-bottom: 20px;
+}
+
+.aside-button {
+    margin-left: 75px;
+    margin-top: 100px;
+    background-color: black;
+
+    width: 160px;
+    height: 220px;
+    padding-right: 40px;
+    border-radius: 7px;
+
+
+    padding-top: 5px;
+
+
+
+}
+
+.btn1 {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+
+
+}
+
+.btn2 {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: rgb(219, 57, 57);
+    color: white;
+
+
+}
+
+.aside-button li {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+
+
+
+
+
+    color: white;
+
+}
+
+.main-section {
+    display: flex;
+}
+
+.blog-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    padding-left: 10px;
+
+}
+
+.blog-img-size {
+
+    padding-left: 10px;
+}
