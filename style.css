@@ -214,7 +214,7 @@ main {
     margin-top: 60px;
     background-color: black;
     color: white;
-    height: 420px;
+    /* height: 420px; */
 }
 
 h2 {
@@ -397,14 +397,14 @@ hr {
     }
 
     hr {
-        width: 90%;
-        margin-left: auto;
+        width: 80%;
+
     }
 
-    .footer-section {
+    /* .footer-section {
         height: 100%;
 
-    }
+    } */
 
     .footer-section ul {
 
