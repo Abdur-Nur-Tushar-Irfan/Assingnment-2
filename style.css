@@ -11,10 +11,10 @@ body {
 header {
     background-color: black;
     color: white;
-    width: 1218px;
     height: 380px;
     border-radius: 20px;
-    margin-left: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 40px;
     transition: 0.2s all;
 
@@ -30,16 +30,24 @@ header:hover {
 
 .header-section {
     display: flex;
+    justify-content: center;
+
+
+
+
 }
 
 .player-img {
     padding-top: 40px;
-    margin-left: 100px;
+    margin-left: 50px;
+    padding-right: 80px;
 }
 
 .greatest {
     padding-left: 150px;
     padding-top: 40px;
+
+
 
 
 }
@@ -87,9 +95,18 @@ main {
 }
 
 .btn2 {
-    background-color: rgb(214, 88, 88);
+    background-color: rgb(218, 51, 51);
     border-radius: 5px;
 
+}
+
+#btn3 {
+    background-color: rgb(218, 51, 51);
+
+}
+
+.aside-button {
+    margin-left: 50px;
 }
 
 .aside-button li {
@@ -110,12 +127,85 @@ main {
     margin-top: 100px;
     padding-left: 10px;
 
+
 }
 
 .blog-img-size {
 
     padding-left: 10px;
+
+    /* box-shadow: 5px 10px; */
+    box-shadow: 2px 2px 10px rgb(241, 191, 191);
+
+    transition: 0.2s all;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-right: 20px;
+
+
+
+
 }
+
+.blog-img-size img {
+    width: 100%;
+}
+
+.blog-img-size:hover {
+    transform: scale(1.03);
+}
+
+#flag-img {
+    display: flex;
+    margin-left: 10px;
+
+    padding-left: 10px;
+    width: 220px;
+
+
+
+}
+
+#flag-img img {
+
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 100%;
+
+}
+
+#match-start {
+    margin-left: 90px;
+}
+
+#world-cup {
+    margin-bottom: 100px;
+    width: 100%;
+    margin-left: 30px;
+    padding-left: 10px;
+
+}
+
+#time {
+    font-size: 12px;
+    opacity: calc(0.5);
+}
+
+.view-all {
+    text-align: center;
+
+}
+
+#btn4 {
+    padding: 10px 40px;
+    background-color: rgb(192, 34, 34);
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+    display: none;
+}
+
 
 /* footer-section start */
 .footer-section {
@@ -178,3 +268,79 @@ hr {
     text-decoration: none;
     color: white;
 }
+
+/* for tablet */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 7px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .blog-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .main-section {
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+    .aside-button {
+        align-self: center;
+        margin-right: 50px;
+    }
+
+    #world-cup {
+        width: 100%;
+
+    }
+
+    #flag-img {
+        width: 80px;
+    }
+
+    #blog-img {
+        margin-right: 50px;
+    }
+
+    h2 {
+        margin-left: 40px;
+    }
+
+    hr {
+        width: 700px;
+        margin-right: 95px;
+    }
+
+    .footer-section ul {
+        font-size: 10px;
+    }
+
+    .media-icon {
+        margin-left: 40px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    #btn4 {
+        display: inline;
+    }
+
+
+}
+
+/* for tablet end */
