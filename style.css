@@ -431,11 +431,13 @@ hr {
         height: 100%;
     }
 
-    p {
-        font-size: 10px;
+    #intro-pera {
         width: 100px;
+        overflow: hidden;
+    }
+
+    #short-text {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
-}
