@@ -77,6 +77,7 @@ main {
     text-align: center;
 }
 
+
 .aside-button {
     margin-left: 75px;
     margin-top: 100px;
@@ -181,9 +182,10 @@ main {
 
 #world-cup {
     margin-bottom: 100px;
-    width: 100%;
-    margin-left: 30px;
+    width: 300px;
+    margin-left: 10px;
     padding-left: 10px;
+    padding-top: 20px;
 
 }
 
@@ -302,11 +304,6 @@ hr {
         margin-right: 50px;
     }
 
-    #world-cup {
-        width: 100%;
-
-    }
-
     #flag-img {
         width: 80px;
     }
@@ -316,24 +313,33 @@ hr {
     }
 
     h2 {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     hr {
-        width: 700px;
-        margin-right: 95px;
+        width: 550px;
+        margin-left: 95px;
     }
 
     .footer-section ul {
-        font-size: 10px;
+
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
     .media-icon {
-        margin-left: 40px;
+        margin-bottom: 150px;
+    }
+
+
+    .media-icon {
+        margin-left: 60px;
+        padding-bottom: 80px;
     }
 
     .footer-section {
         width: 100%;
+        height: 100%;
     }
 
     #btn4 {
@@ -344,3 +350,90 @@ hr {
 }
 
 /* for tablet end */
+/* for mobile start */
+@media screen and (max-width:576px) {
+    .header-section {
+        display: block;
+
+    }
+
+    .greatest {
+        font-size: 6px;
+        padding-top: 2px;
+        padding-right: 7px;
+    }
+
+    .player-img img {
+        width: 200px;
+        height: 168px;
+        padding-left: 60px;
+        padding-bottom: 40px;
+
+    }
+
+    .blog-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .main-section {
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+    .aside-button {
+        margin-right: 50px;
+    }
+
+    hr {
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+
+    h2 {
+        margin-left: 100px;
+        margin-bottom: 50px;
+        padding-bottom: 15px;
+        font-size: 40px;
+    }
+
+    .footer-section {
+        height: 100%;
+    }
+
+    .footer-section ul {
+
+        display: block;
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .media-icon {
+        display: flex;
+        margin-bottom: 100px;
+        padding-left: 130px;
+
+    }
+
+    #world-cup {
+        width: 300px;
+        padding-top: 20px;
+        margin-right: 70px;
+    }
+
+    .media-icon {
+        width: 100%;
+        height: 100%;
+    }
+
+    p {
+        font-size: 10px;
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
