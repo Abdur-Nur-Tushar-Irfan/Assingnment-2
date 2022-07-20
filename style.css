@@ -397,7 +397,8 @@ hr {
     }
 
     hr {
-        justify-content: center;
+        width: 90%;
+        margin-left: auto;
     }
 
     .footer-section {
