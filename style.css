@@ -361,19 +361,14 @@ hr {
     }
 
     .greatest {
-        /* font-size: 6px;
-        padding-top: 2px;
-        padding-right: 7px; */
+
         padding-left: 20px;
         justify-content: center;
 
     }
 
     .player-img img {
-        /* width: 200px;
-        height: 168px;
-        padding-left: 60px;
-        padding-bottom: 40px; */
+
         width: 97%;
         padding-left: 30px;
 
