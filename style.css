@@ -360,6 +360,7 @@ hr {
 
     }
 
+
     .greatest {
 
         padding-left: 20px;
@@ -387,7 +388,7 @@ hr {
     }
 
     .aside-button {
-        margin-right: 50px;
+        margin-left: 4%;
     }
 
     h2 {
@@ -400,11 +401,6 @@ hr {
         width: 80%;
 
     }
-
-    /* .footer-section {
-        height: 100%;
-
-    } */
 
     .footer-section ul {
 
