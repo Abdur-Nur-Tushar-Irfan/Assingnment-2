@@ -396,9 +396,13 @@ hr {
         text-align: center;
     }
 
+    hr {
+        justify-content: center;
+    }
+
     .footer-section {
         height: 100%;
-        width: 100%;
+
     }
 
     .footer-section ul {
